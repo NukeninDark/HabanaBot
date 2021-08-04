@@ -7,8 +7,8 @@ require("dotenv").config();
 const { prefix } = require("./config.json");
 
 const fs = require("fs");
-const Sequelize = require("sequelize");
-const { Users } = require('./database/dbObjects.js');
+//const Sequelize = require("sequelize");
+//const { Users } = require('./database/dbObjects.js');
 
 const client = new Discord.Client({
 	restTimeOffset: 0,

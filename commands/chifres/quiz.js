@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const { perguntas } = require("./configs/perguntasQuiz.json");
-const Sequelize = require("sequelize");
-const { Users } = require("../../database/dbObjects.js");
+//const Sequelize = require("sequelize");
+//const { Users } = require("../../database/dbObjects.js");
 
 module.exports = {
 	name: "quiz",
