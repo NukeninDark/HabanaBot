@@ -23,7 +23,6 @@ function shuffleArray(arr) {
 }
 
 function atualizarJSON() {
-    //console.log('AtualizandoJson')
     fs.writeFile('./config.json', JSON.stringify(configs, null, 4), (err) => {
         if (err) {
             console.log(`Error writing file: ${err}`);
@@ -43,13 +42,12 @@ function retirarPrimeironumeroArray(){
 }
 
 function enviarMensagem(message, args){
-    const attachment = new Discord.MessageAttachment(`./Fotos/dandan/${Dandan[ID].Nome}.${Dandan[ID].tipo}`);
-	message.reply(`${Dandan[ID].mensagem}`, attachment);
+	return message.reply(`${Dandan[ID].mensagem}`, new Discord.MessageAttachment(Dandan[ID].url));
 }
 
 function atualizandoMensagem(message, numero) {
     atualizarJSON();
-    message.reply(`A mensagem de Dandan foi atualizada com sucesso! Foi retiradas ${numero}`);
+    return message.reply(`A mensagem de Dandan foi atualizada com sucesso! Foi retiradas ${numero}`);
 }
 
 module.exports = {
@@ -57,7 +55,7 @@ module.exports = {
 	name: 'dandan',
     aliases: ['dan'],
 	description: 'Descubra qual é o pensamento de hoje com o Dandan!',
-    usage: '[dandan ou dan]',
+    usage: '[!dandan ou !dan]',
 	execute(message, args){
 
         const date = new Date();
@@ -70,10 +68,6 @@ module.exports = {
         } else {
             ID = configs.numerosDiaDandan[0]
         }
-
-        //write new data back to the file
-        //atualizarJSON();
-
 		enviarMensagem(message, args);
 	},
 

@@ -3,7 +3,8 @@
 		"Adicionado o comando **'changelog'**",
 		"Adicionado os comandos **'steal'**, **'resetAvatar'** e **'randomize'**",
 		"Adicionado o comando **'ms'**",
-        "Adicionou cooldowns globais para certos comandos. Se o comando tiver este cooldown, ele compartilha com todos outros comandos que tem o mesmo."
+        "Adicionou cooldowns globais para certos comandos. Se o comando tiver este cooldown, ele compartilha com todos outros comandos que tem o mesmo.",
+		"Melhorias no código! YEY"
 	],
 
     "footer": "Varios comandos adicionados! Experimente!"

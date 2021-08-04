@@ -10,8 +10,7 @@ module.exports = {
 	execute(message, args){
 		const ID = this.randomThigas();
 
-		const attachment = new Discord.MessageAttachment(`./Fotos/thigas/${Thigas[ID].Nome}.${Thigas[ID].tipo}`);
-		return message.reply(`${Thigas[ID].mensagem}`, attachment);
+		return message.reply(`${Thigas[ID].mensagem}`, new Discord.MessageAttachment(Thigas[ID].url));
 	},
 
 	randomThigas() {

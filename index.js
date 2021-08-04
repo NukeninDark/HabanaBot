@@ -145,7 +145,7 @@ client.on("message", async (message) => {
 	// #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=#
 
 	try {
-		command.execute(message, args, client);
+		command.execute(message, args);
 	} catch (error) {
 		console.error(error);
 		message.reply("Teve um erro ao executar este comando!");
