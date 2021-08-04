@@ -1,0 +1,26 @@
+{
+  "name": "habana-bot",
+  "version": "1.2.0",
+  "description": "Um bot do Thigas",
+  "main": "index.js",
+  "nodemonConfig": {
+    "ignore": [
+      "config.json"
+    ],
+    "delay": 2500
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Henrique",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "sequelize": "^6.6.5",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
