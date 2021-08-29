@@ -15,7 +15,7 @@
   "author": "Henrique",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^12.5.3",
+    "discord.js": "^13.1.0",
     "dotenv": "^10.0.0",
     "sequelize": "^6.6.5",
     "sqlite3": "^4.2.0"
