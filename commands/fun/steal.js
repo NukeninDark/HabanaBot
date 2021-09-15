@@ -1,17 +1,17 @@
 //const Discord = require('discord.js');
 
 function getUserFromMention(mention) {
-	if (!mention) return;
+    if (!mention) return;
 
-	if (mention.startsWith('<@') && mention.endsWith('>')) {
-		mention = mention.slice(2, -1);
+    if (mention.startsWith('<@') && mention.endsWith('>')) {
+        mention = mention.slice(2, -1);
 
-		if (mention.startsWith('!')) {
-			mention = mention.slice(1);
-		}
+        if (mention.startsWith('!')) {
+            mention = mention.slice(1);
+        }
 
-		return message.client.users.cache.get(mention);
-	}
+        return message.client.users.cache.get(mention);
+    }
 }
 
 module.exports = {
@@ -27,11 +27,17 @@ module.exports = {
                 return message.reply('Por favor, mencione alguem para que eu possa roubar o seu avatar!');
             }
 
-            message.client.user.setAvatar(user.displayAvatarURL({ dynamic: true })).then(()=>{
-            message.reply(`Avatar roubado com sucesso!`)});
+            message.client.user.setAvatar(user.displayAvatarURL({
+                dynamic: true
+            })).then(() => {
+                message.reply(`Avatar roubado com sucesso!`)
+            });
         } else {
-            return message.client.user.setAvatar(message.author.displayAvatarURL({ dynamic: true })).then(()=>{
-                message.reply(`Avatar roubado com sucesso!`)});
+            return message.client.user.setAvatar(message.author.displayAvatarURL({
+                dynamic: true
+            })).then(() => {
+                message.reply(`Avatar roubado com sucesso!`)
+            });
         }
     },
 };

@@ -1,5 +1,9 @@
-const { randomThigas } = require('../chifres/thigas.js');
-const {Thigas} = require('../chifres/fotos.json');
+const {
+    randomThigas
+} = require('../chifres/thigas.js');
+const {
+    Thigas
+} = require('../chifres/fotos.json');
 
 module.exports = {
     name: 'randomizeavatar',
@@ -8,7 +12,8 @@ module.exports = {
     globalcooldowns: true,
     execute(message, args) {
         const ID = randomThigas()
-        return message.client.user.setAvatar(`./Fotos/thigas/${Thigas[ID].Nome}.${Thigas[ID].tipo}`).then(()=>{
-                message.reply(`Avatar atualizado com sucesso!`)});
+        return message.client.user.setAvatar(`./Fotos/thigas/${Thigas[ID].Nome}.${Thigas[ID].tipo}`).then(() => {
+            message.reply(`Avatar atualizado com sucesso!`)
+        });
     },
 };

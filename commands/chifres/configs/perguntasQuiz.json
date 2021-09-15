@@ -1,127 +1,126 @@
 {
-	"perguntas": [
-		{
-			"pergunta": "Qual bebida você prefere?",
-			"A": "51",
-			"B": "Caipirinha de Daniel",
-			"C": "Drinks Duvidosos",
-			"D": "Cerveja Brahma puro duplo",
-			"Lana": ["🇦", "🇧"],
-			"Julia": ["🇨", "🇩"],
-			"thumbnail": "https://i.imgur.com/NbDtZ5v.jpg",
-			"image": "https://i.imgur.com/8X9NHJY.jpg",
-			"ID": 0
-		},
+  "perguntas": [{
+      "pergunta": "Qual bebida você prefere?",
+      "A": "51",
+      "B": "Caipirinha de Daniel",
+      "C": "Drinks Duvidosos",
+      "D": "Cerveja Brahma puro duplo",
+      "Lana": ["🇦", "🇧"],
+      "Julia": ["🇨", "🇩"],
+      "thumbnail": "https://i.imgur.com/NbDtZ5v.jpg",
+      "image": "https://i.imgur.com/8X9NHJY.jpg",
+      "ID": 0
+    },
 
-		{
-			"pergunta": "Qual sua relação com animes?",
-			"A": "Vejo ou tento ver todos da temporada",
-			"B": "Assisto os mais famosos",
-			"C": "Assisto os que me recomendam",
-			"D": "Criei a fandom de naruto",
-			"Lana": ["🇦", "🇩"],
-			"Julia": ["🇧", "🇨"],
-			"thumbnail": "https://i.imgur.com/eB4E29l.jpg",
-			"image": "https://i.imgur.com/n2KCWvM.jpg",
-			"ID": 1
-		},
+    {
+      "pergunta": "Qual sua relação com animes?",
+      "A": "Vejo ou tento ver todos da temporada",
+      "B": "Assisto os mais famosos",
+      "C": "Assisto os que me recomendam",
+      "D": "Criei a fandom de naruto",
+      "Lana": ["🇦", "🇩"],
+      "Julia": ["🇧", "🇨"],
+      "thumbnail": "https://i.imgur.com/eB4E29l.jpg",
+      "image": "https://i.imgur.com/n2KCWvM.jpg",
+      "ID": 1
+    },
 
-		{
-			"pergunta": "No lol, você eh mais:",
-			"A": "Porra louca dive no lvl 3",
-			"B": "Culpo o jungle pelo minha vida ruim",
-			"C": "Tem torre eh pra ficar de baixo né",
-			"D": "Só jogo com meu duo",
-			"Lana": ["🇧", "🇨"],
-			"Julia": ["🇦", "🇩"],
-			"thumbnail": "https://i.imgur.com/NTz2Kuy.jpg",
-			"image": "https://i.imgur.com/Nf4Dg6q.jpg",
-			"ID": 2
-		},
-		{
-			"pergunta": "Seus amigos te chamam pra sair, você:",
-			"A": "Vai se tiver grana",
-			"B": "Vai se meu namorado for",
-			"C": "Vai só se tiver carona",
-			"D": "Vai de qualquer forma quer nem saber",
-			"Lana": ["🇧", "🇨"],
-			"Julia": ["🇦", "🇩"],
-			"thumbnail": "https://i.imgur.com/IhhTQJb.jpg",
-			"image": "https://i.imgur.com/fjWwmil.jpg",
-			"ID": 3
-		},
-		{
-			"pergunta": "Se tivesse que escolher, você preferiria:",
-			"A": "Ir num encontro de furry",
-			"B": "Ouvir Daniel gemendo na call",
-			"C": "Apanhar de mulher/homem bonito(a)",
-			"D": "Usar roupa de couro",
-			"Lana": ["🇦", "🇧"],
-			"Julia": ["🇨", "🇩"],
-			"thumbnail": "https://i.imgur.com/MmUUAA3.jpg",
-			"image": "https://i.imgur.com/jYSsdNi.jpg",
-			"ID": 4
-		},
-		{
-			"pergunta": "Qual seu animal favorito?",
-			"A": "Animais marinhos",
-			"B": "Filhote de gatinho",
-			"C": "Cachorro",
-			"D": "Gente vestida de Animal",
-			"Lana": ["🇦", "🇩"],
-			"Julia": ["🇧", "🇨"],
-			"thumbnail": "https://i.imgur.com/uLdUAer.jpg",
-			"image": "https://i.imgur.com/34PxUgC.jpg",
-			"ID": 5
-		},
-		{
-			"pergunta": "Jogando no play 2, você eh mais:",
-			"A": "300 jogos num só dvd vamo jogar outra coisa pf",
-			"B": "FDS vamo jogar Mario dnv eu sou o Mario",
-			"C": "Sempre perde primeiro no bomberman",
-			"D": "Obrigado a jogar com a manete que tá ruim",
-			"Lana": ["🇦", "🇩"],
-			"Julia": ["🇧", "🇨"],
-			"thumbnail": "https://i.imgur.com/9CJmGYZ.jpg",
-			"image": "https://i.imgur.com/lgbeNnZ.jpg",
-			"ID": 6
-		},
-		{
-			"pergunta": "No espólio do lol, você:",
-			"A": "Tira todas as skins ultimates no baú",
-			"B": "Tira a skin que seu amigo quer",
-			"C": "Tirou a skin que quer mas não tem essência",
-			"D": "Tem todas as skins de um certo campeão tiradas do baú",
-			"Lana": ["🇦", "🇧"],
-			"Julia": ["🇨", "🇩"],
-			"thumbnail": "https://i.imgur.com/YLmp9Pt.jpg",
-			"image": "https://i.imgur.com/mN3icxq.jpg",
-			"ID": 7
-		},
-		{
-			"pergunta": "No rolê, voce:",
-			"A": "Fica doido e não quer ir embora",
-			"B": "Com pouco tempo já quer ir embora se bater o soninho",
-			"C": "Eh o último a ir embora",
-			"D": "Nem vo",
-			"Lana": ["🇧", "🇩"],
-			"Julia": ["🇦", "🇨"],
-			"thumbnail": "https://i.imgur.com/F562wzP.jpg",
-			"image": "https://i.imgur.com/W6dQThU.jpg",
-			"ID": 8
-		},
+    {
+      "pergunta": "No lol, você eh mais:",
+      "A": "Porra louca dive no lvl 3",
+      "B": "Culpo o jungle pelo minha vida ruim",
+      "C": "Tem torre eh pra ficar de baixo né",
+      "D": "Só jogo com meu duo",
+      "Lana": ["🇧", "🇨"],
+      "Julia": ["🇦", "🇩"],
+      "thumbnail": "https://i.imgur.com/NTz2Kuy.jpg",
+      "image": "https://i.imgur.com/Nf4Dg6q.jpg",
+      "ID": 2
+    },
+    {
+      "pergunta": "Seus amigos te chamam pra sair, você:",
+      "A": "Vai se tiver grana",
+      "B": "Vai se meu namorado for",
+      "C": "Vai só se tiver carona",
+      "D": "Vai de qualquer forma quer nem saber",
+      "Lana": ["🇧", "🇨"],
+      "Julia": ["🇦", "🇩"],
+      "thumbnail": "https://i.imgur.com/IhhTQJb.jpg",
+      "image": "https://i.imgur.com/fjWwmil.jpg",
+      "ID": 3
+    },
+    {
+      "pergunta": "Se tivesse que escolher, você preferiria:",
+      "A": "Ir num encontro de furry",
+      "B": "Ouvir Daniel gemendo na call",
+      "C": "Apanhar de mulher/homem bonito(a)",
+      "D": "Usar roupa de couro",
+      "Lana": ["🇦", "🇧"],
+      "Julia": ["🇨", "🇩"],
+      "thumbnail": "https://i.imgur.com/MmUUAA3.jpg",
+      "image": "https://i.imgur.com/jYSsdNi.jpg",
+      "ID": 4
+    },
+    {
+      "pergunta": "Qual seu animal favorito?",
+      "A": "Animais marinhos",
+      "B": "Filhote de gatinho",
+      "C": "Cachorro",
+      "D": "Gente vestida de Animal",
+      "Lana": ["🇦", "🇩"],
+      "Julia": ["🇧", "🇨"],
+      "thumbnail": "https://i.imgur.com/uLdUAer.jpg",
+      "image": "https://i.imgur.com/34PxUgC.jpg",
+      "ID": 5
+    },
+    {
+      "pergunta": "Jogando no play 2, você eh mais:",
+      "A": "300 jogos num só dvd vamo jogar outra coisa pf",
+      "B": "FDS vamo jogar Mario dnv eu sou o Mario",
+      "C": "Sempre perde primeiro no bomberman",
+      "D": "Obrigado a jogar com a manete que tá ruim",
+      "Lana": ["🇦", "🇩"],
+      "Julia": ["🇧", "🇨"],
+      "thumbnail": "https://i.imgur.com/9CJmGYZ.jpg",
+      "image": "https://i.imgur.com/lgbeNnZ.jpg",
+      "ID": 6
+    },
+    {
+      "pergunta": "No espólio do lol, você:",
+      "A": "Tira todas as skins ultimates no baú",
+      "B": "Tira a skin que seu amigo quer",
+      "C": "Tirou a skin que quer mas não tem essência",
+      "D": "Tem todas as skins de um certo campeão tiradas do baú",
+      "Lana": ["🇦", "🇧"],
+      "Julia": ["🇨", "🇩"],
+      "thumbnail": "https://i.imgur.com/YLmp9Pt.jpg",
+      "image": "https://i.imgur.com/mN3icxq.jpg",
+      "ID": 7
+    },
+    {
+      "pergunta": "No rolê, voce:",
+      "A": "Fica doido e não quer ir embora",
+      "B": "Com pouco tempo já quer ir embora se bater o soninho",
+      "C": "Eh o último a ir embora",
+      "D": "Nem vo",
+      "Lana": ["🇧", "🇩"],
+      "Julia": ["🇦", "🇨"],
+      "thumbnail": "https://i.imgur.com/F562wzP.jpg",
+      "image": "https://i.imgur.com/W6dQThU.jpg",
+      "ID": 8
+    },
 
-		{
-			"pergunta": "No bot do discord, você:",
-			"A": "Coloca uma playlist de 13horas só pra vc",
-			"B": "Coloca funk",
-			"C": "Coloca uns pop pra td mundo curtir",
-			"D": "Escuta o que colocarem",
-			"Lana": ["🇨", "🇩"],
-			"Julia": ["🇦", "🇧"],
-			"thumbnail": "https://i.imgur.com/zW3ETBc.jpg",
-			"image": "https://i.imgur.com/PnZztcb.jpg",
-			"ID": 9
-		}
-	]
+    {
+      "pergunta": "No bot do discord, você:",
+      "A": "Coloca uma playlist de 13horas só pra vc",
+      "B": "Coloca funk",
+      "C": "Coloca uns pop pra td mundo curtir",
+      "D": "Escuta o que colocarem",
+      "Lana": ["🇨", "🇩"],
+      "Julia": ["🇦", "🇧"],
+      "thumbnail": "https://i.imgur.com/zW3ETBc.jpg",
+      "image": "https://i.imgur.com/PnZztcb.jpg",
+      "ID": 9
+    }
+  ]
 }

@@ -1,57 +1,355 @@
 {
-	"Thigas": [  
-        {"ID": 0, "Nome":"Animado", "tipo": "png", "mensagem": "Sua animação esta de ponta com Thigas!", "url": "https://i.imgur.com/Q5seYq2.png"},
-        {"ID": 1, "Nome":"Apaixonado", "tipo": "png", "mensagem": "Sinto um ar de apaixonado que liga a você!", "url": "https://i.imgur.com/6uMvjO3.png"},
-        {"ID": 2, "Nome":"Feliz", "tipo": "png", "mensagem": "Sua felicidade pode ser contagiante!", "url": "https://i.imgur.com/Y3IkQYe.png"},
-        {"ID": 3, "Nome":"Lolicon", "tipo": "png", "mensagem": "AIN, Senpai 😳", "url": "https://i.imgur.com/zN2mEFz.png"},
-        {"ID": 4, "Nome":"Mascarado", "tipo": "png", "mensagem": "Estou sentindo um segundo emprego no ar...", "url": "https://i.imgur.com/Gjy71Fw.png"},
-        {"ID": 5, "Nome":"Ocara", "tipo": "png", "mensagem": "Parece ser o chefe! Uma aura de Manda Chuva.", "url": "https://i.imgur.com/AGYx9dh.png"},
-        {"ID": 6, "Nome":"Selfie", "tipo": "png", "mensagem": "Tão lindo que merece ate uma foto", "url": "https://i.imgur.com/yzae1EF.png"},
-        {"ID": 7, "Nome":"Traveco", "tipo": "png", "mensagem": "Oi? Casada?", "url": "https://i.imgur.com/ro97M9A.png"},
-        {"ID": 8, "Nome":"Certinho", "tipo": "png", "mensagem": "A visão dela 👀", "url": "https://i.imgur.com/PkYW4sr.png"},
-        {"ID": 9, "Nome":"Escurinho", "tipo": "png", "mensagem": "Vem aqui no escurinho para a gente ver um negocio!", "url": "https://i.imgur.com/426JE83.png"},
-        {"ID": 10, "Nome":"Fabuloso", "tipo": "png", "mensagem": "Você é o centro das atenções mesmo nem sabendo!", "url": "https://i.imgur.com/UZ8ubrE.png"},
-        {"ID": 11, "Nome":"Firmeza", "tipo": "png", "mensagem": "Por gentileza, poderia me dar o seu autógrafo?", "url": "https://i.imgur.com/3MzVYJM.png"},
-        {"ID": 12, "Nome":"Flash", "tipo": "png", "mensagem": "O problema de correr mais rapido que a luz é que você vive na escuridão.", "url": "https://i.imgur.com/n38GijY.png"},
-        {"ID": 13, "Nome":"Puto", "tipo": "png", "mensagem": "Você e tão irritante que Thigas tem nojo de você! 🤮", "url": "https://i.imgur.com/TfdIZY2.png"},
-        {"ID": 14, "Nome":"Satisfeito", "tipo": "png", "mensagem": "Não precisa nem olhar denovo, so me acompanhe por favor! 😉", "url": "https://i.imgur.com/2FC16bN.png"},
-        {"ID": 15, "Nome":"tue", "tipo": "png", "mensagem": "Hummmm, tu é né? 😌*Chama no ZAP😈*", "url": "https://i.imgur.com/vi2lTNs.png"},
-        {"ID": 16, "Nome":"Suave", "tipo": "png", "mensagem": "Você aceita todo tipo de comida! Sempre as melhores 🤩", "url": "https://i.imgur.com/2OfvKM8.png"},
-        {"ID": 17, "Nome":"Comidinha", "tipo": "png", "mensagem": "Só faltou um cafézinho nhummnhumm!!!", "url": "https://i.imgur.com/PWQTaKU.png"}
-    ],
+  "Thigas": [{
+      "ID": 0,
+      "Nome": "Animado",
+      "tipo": "png",
+      "mensagem": "Sua animação esta de ponta com Thigas!",
+      "url": "https://i.imgur.com/Q5seYq2.png"
+    },
+    {
+      "ID": 1,
+      "Nome": "Apaixonado",
+      "tipo": "png",
+      "mensagem": "Sinto um ar de apaixonado que liga a você!",
+      "url": "https://i.imgur.com/6uMvjO3.png"
+    },
+    {
+      "ID": 2,
+      "Nome": "Feliz",
+      "tipo": "png",
+      "mensagem": "Sua felicidade pode ser contagiante!",
+      "url": "https://i.imgur.com/Y3IkQYe.png"
+    },
+    {
+      "ID": 3,
+      "Nome": "Lolicon",
+      "tipo": "png",
+      "mensagem": "AIN, Senpai 😳",
+      "url": "https://i.imgur.com/zN2mEFz.png"
+    },
+    {
+      "ID": 4,
+      "Nome": "Mascarado",
+      "tipo": "png",
+      "mensagem": "Estou sentindo um segundo emprego no ar...",
+      "url": "https://i.imgur.com/Gjy71Fw.png"
+    },
+    {
+      "ID": 5,
+      "Nome": "Ocara",
+      "tipo": "png",
+      "mensagem": "Parece ser o chefe! Uma aura de Manda Chuva.",
+      "url": "https://i.imgur.com/AGYx9dh.png"
+    },
+    {
+      "ID": 6,
+      "Nome": "Selfie",
+      "tipo": "png",
+      "mensagem": "Tão lindo que merece ate uma foto",
+      "url": "https://i.imgur.com/yzae1EF.png"
+    },
+    {
+      "ID": 7,
+      "Nome": "Traveco",
+      "tipo": "png",
+      "mensagem": "Oi? Casada?",
+      "url": "https://i.imgur.com/ro97M9A.png"
+    },
+    {
+      "ID": 8,
+      "Nome": "Certinho",
+      "tipo": "png",
+      "mensagem": "A visão dela 👀",
+      "url": "https://i.imgur.com/PkYW4sr.png"
+    },
+    {
+      "ID": 9,
+      "Nome": "Escurinho",
+      "tipo": "png",
+      "mensagem": "Vem aqui no escurinho para a gente ver um negocio!",
+      "url": "https://i.imgur.com/426JE83.png"
+    },
+    {
+      "ID": 10,
+      "Nome": "Fabuloso",
+      "tipo": "png",
+      "mensagem": "Você é o centro das atenções mesmo nem sabendo!",
+      "url": "https://i.imgur.com/UZ8ubrE.png"
+    },
+    {
+      "ID": 11,
+      "Nome": "Firmeza",
+      "tipo": "png",
+      "mensagem": "Por gentileza, poderia me dar o seu autógrafo?",
+      "url": "https://i.imgur.com/3MzVYJM.png"
+    },
+    {
+      "ID": 12,
+      "Nome": "Flash",
+      "tipo": "png",
+      "mensagem": "O problema de correr mais rapido que a luz é que você vive na escuridão.",
+      "url": "https://i.imgur.com/n38GijY.png"
+    },
+    {
+      "ID": 13,
+      "Nome": "Puto",
+      "tipo": "png",
+      "mensagem": "Você e tão irritante que Thigas tem nojo de você! 🤮",
+      "url": "https://i.imgur.com/TfdIZY2.png"
+    },
+    {
+      "ID": 14,
+      "Nome": "Satisfeito",
+      "tipo": "png",
+      "mensagem": "Não precisa nem olhar denovo, so me acompanhe por favor! 😉",
+      "url": "https://i.imgur.com/2FC16bN.png"
+    },
+    {
+      "ID": 15,
+      "Nome": "tue",
+      "tipo": "png",
+      "mensagem": "Hummmm, tu é né? 😌*Chama no ZAP😈*",
+      "url": "https://i.imgur.com/vi2lTNs.png"
+    },
+    {
+      "ID": 16,
+      "Nome": "Suave",
+      "tipo": "png",
+      "mensagem": "Você aceita todo tipo de comida! Sempre as melhores 🤩",
+      "url": "https://i.imgur.com/2OfvKM8.png"
+    },
+    {
+      "ID": 17,
+      "Nome": "Comidinha",
+      "tipo": "png",
+      "mensagem": "Só faltou um cafézinho nhummnhumm!!!",
+      "url": "https://i.imgur.com/PWQTaKU.png"
+    }
+  ],
 
-    "Dandan": [
-        {"ID": 0, "Nome":"annn", "tipo": "png", "mensagem": "Já dizia um filósofo atemporal: Nunca foi sorte, sempre foi...", "url": "https://i.imgur.com/MjyijRV.png"},
-        {"ID": 1, "Nome":"trabalhador", "tipo": "png", "mensagem": "Todo trabalho é para pagar as gemas do genshin dela", "url": "https://i.imgur.com/Lh56cZt.png"},
-        {"ID": 2, "Nome":"annn_2", "tipo": "png", "mensagem": "Hoje é dia de maldadeee", "url": "https://i.imgur.com/jx4OoDg.png"},
-        {"ID": 3, "Nome":"casada", "tipo": "png", "mensagem": "Para que comer uma solteira se voce pode comer uma casada milf furry", "url": "https://i.imgur.com/20kxOxa.png"},
-        {"ID": 4, "Nome":"cheirosinho", "tipo": "png", "mensagem": "Hoje tome um banho, lave o cabelo e passe aquele perfume! Nunca se sabe quando voce vai levar uma cafungada no pescoço", "url": "https://i.imgur.com/nDjB8GO.png"},
-        {"ID": 5, "Nome":"felicidades", "tipo": "png", "mensagem": "A felicidade é uma coisa inexplicavel, que demoraria anos para ser explicada então seja feliz inexplicavelmente", "url": "https://i.imgur.com/HVEnICq.png"},
-        {"ID": 6, "Nome":"feliz_mamada", "tipo": "png", "mensagem": "A muher mais feliz do mundo é a que consegue olhar para cima ver isso e continuar a cantar: eu escolhi amar você pra sempreeeeeeeeee", "url": "https://i.imgur.com/VAGl5vJ.png"},
-        {"ID": 7, "Nome":"murro", "tipo": "png", "mensagem": "Hoje não deixe ninguem te derrubar faça sua melhor posição e de um murro ninja ", "url": "https://i.imgur.com/p4g7Glx.png"},
-        {"ID": 8, "Nome":"perdi_alianca", "tipo": "png", "mensagem": "Se você perder uma coisa não fique triste, ela pode aparecer mas se voce perder seu cu apostando na sinuca fique triste, ele nunca sera o mesmo ", "url": "https://i.imgur.com/SqCzYAV.png"},
-        {"ID": 9, "Nome":"pensador_banheiro", "tipo": "png", "mensagem": "As vezes tomar banho pode ser bom, lavar a alma, mas só aos sabados para não gastar água", "url": "https://i.imgur.com/C2gjieX.png"},
-        {"ID": 10, "Nome":"qq_to_fazendaki", "tipo": "png", "mensagem": "A arte de dormir em todos os lugares é somente para aqueles mais preparados", "url": "https://i.imgur.com/L0e5eEQ.png"},
-        {"ID": 11, "Nome":"sou_lindo", "tipo": "png", "mensagem": "Minha mãe me falava: \"Nossa filho como voce esta lindo.\" \n\nJá meu pai me dizia:\n", "url": "https://i.imgur.com/nkqbsKV.png"},
-        {"ID": 12, "Nome":"vo_falar_nada", "tipo": "png", "mensagem": "Hoje você tem que se hidratar se não vai ter pedra nos rins daqui a 5 meses", "url": "https://i.imgur.com/gPHXAiQ.png"},
-        {"ID": 13, "Nome":"selfie_2", "tipo": "png", "mensagem": "Hoje pode ser o dia que você recebe uma mensagem no seu celular você olha e ve que a gata mandou: \"To sozinha em casa gato.\"\n Hoje é seu dia de sorte.", "url": "https://i.imgur.com/cTsEveU.png"},
-        {"ID": 14, "Nome":"colgate", "tipo": "png", "mensagem": "Lembre-se nunca escove os dentes, siga meu exemplo, dente machuca!", "url": "https://i.imgur.com/AAWejyf.png"},
-        {"ID": 15, "Nome":"pensador_2", "tipo": "png", "mensagem": "O dinheiro nao é tudo na vida, lembre-se tambem que existe o ouro, diamante da platina e de outras propriedades", "url": "https://i.imgur.com/0m4Pyne.png"},
-        {"ID": 16, "Nome":"pensador", "tipo": "png", "mensagem": "Uma vez eu escutei que um surdo ouviu que uma cega viu uma aleijada correndo atras dos seus sonhos, então nunca desista", "url": "https://i.imgur.com/QVK84Er.png"},
-        {"ID": 17, "Nome":"avioneiro", "tipo": "png", "mensagem": "Meu sonho era trabalhar nas forças armadas, e hoje eu realizei esse meu sonho e sou o melhor cadete do exercito, capino 2 lotes por dia dependendo do tamanho.", "url": "https://i.imgur.com/E0sRjUk.png"},
-        {"ID": 18, "Nome":"amiguinho_colorido_2", "tipo": "png", "mensagem": "Minha namorada tem barba mas ela disse que é por causa dos hormônios da academia.\n❤️ Te amo amor ❤️", "url": "https://i.imgur.com/nUmdvWq.png"},
-        {"ID": 19, "Nome":"akatsuki", "tipo": "png", "mensagem": "Quando você se sentir uma merda, um inutil, um pedaço de cocô, um merda, uma pessoa que nao serve para nada! Não se esqueça que o naruto nunca iria desistir, mas você não é o naruto e muito menos eu.", "url": "https://i.imgur.com/3VxBpg8.png"},
-        {"ID": 20, "Nome":"delicia_comida", "tipo": "png", "mensagem": "Quando você for sair sempre lembre de levar a sua comida caso voce esteja com fome você tera alimento rapido, e não esqueça também da comida de emergência.", "url": "https://i.imgur.com/2OawVfr.png"},
-        {"ID": 21, "Nome":"mimir_2", "tipo": "png", "mensagem": "Nunca se esqueça de dormir com a boca fechada, mosquito não tem freio! Nem amigo bêbado...", "url": "https://i.imgur.com/Q8g3lJp.png"},
-        {"ID": 22, "Nome":"partiu_zoom", "tipo": "png", "mensagem": "Não se esqueça de sempre usar máscara de forma correta tampando boca e nariz e não no queixo como macacos.", "url": "https://i.imgur.com/kATwjdn.png"},
-        {"ID": 23, "Nome":"tiradentes", "tipo": "png", "mensagem": "Os melhores amigos te ajudam a colar, a passar de ano e tudo que você tem que fazer é dar uma mamada nele. \nOBS: Sem contato visual", "url": "https://i.imgur.com/ENJ5K9W.png"},
-        {"ID": 24, "Nome":"to_preso", "tipo": "png", "mensagem": "As vezes você tem que abrir mão do role sábado para cuidar da sua amada.. Mas e ai role sábado que vem?", "url": "https://i.imgur.com/X6Ne8vj.png"},
-        {"ID": 25, "Nome":"tomar_sorvete", "tipo": "png", "mensagem": "Tudo o que você precisa saber para tomar sorvete é nao encostar os dentes nas bolas. \nSegue a foto para um exemplo:", "url": "https://i.imgur.com/aQz5w5m.png"},
-        {"ID": 26, "Nome":"vida_dificil", "tipo": "png", "mensagem": "Eu não gosto de mim eu tento não me ver nem ficar perto, mas em todo lugar que eu ia eu estava la", "url": "https://i.imgur.com/CJimF94.png"},
-        {"ID": 27, "Nome":"biscoitao", "tipo": "png", "mensagem": "As vezes tudo que eu faço me lembra minha namorada barbuda que fala que a barba era por conta dos hormônios da academia... Achei que era o clitoris", "url": "https://i.imgur.com/BVUU1VE.png"},
-        {"ID": 28, "Nome":"banheta", "tipo": "png", "mensagem": "Hoje Dandan recomenda voce tomar banho, pode não ser sábado ou pode ser mas sempre é bom uma banheta surpresa!", "url": "https://i.imgur.com/b9o9kEf.png"},
-        {"ID": 29, "Nome":"cagando", "tipo": "png", "mensagem": "A melhor hora de se pensar na vida é quando estiver no banheiro! Hoje tire um tempo sente=se no vaso e pense sobre todas as merdas que você já fez e aproveite e faça outra!", "url": "https://i.imgur.com/tgtV91M.png"},
-        {"ID": 30, "Nome":"banhozinho_2", "tipo": "png", "mensagem": "As vezes me ensaboando lembro que todos da casa usam o mesmo sabonete e passam na bunda o sabonete que eu to passando na cara..", "url": "https://i.imgur.com/5jlD3B2.png"},
-        {"ID": 31, "Nome":"aeee_garai", "tipo": "png", "mensagem": "Nunca deixe ninguem dizer que você não consegue, diga você mesmo: Eu não consigo!", "url": "https://i.imgur.com/h9pyNBo.png"}
-    ]
-}  
+  "Dandan": [{
+      "ID": 0,
+      "Nome": "annn",
+      "tipo": "png",
+      "mensagem": "Já dizia um filósofo atemporal: Nunca foi sorte, sempre foi...",
+      "url": "https://i.imgur.com/MjyijRV.png"
+    },
+    {
+      "ID": 1,
+      "Nome": "trabalhador",
+      "tipo": "png",
+      "mensagem": "Todo trabalho é para pagar as gemas do genshin dela",
+      "url": "https://i.imgur.com/Lh56cZt.png"
+    },
+    {
+      "ID": 2,
+      "Nome": "annn_2",
+      "tipo": "png",
+      "mensagem": "Hoje é dia de maldadeee",
+      "url": "https://i.imgur.com/jx4OoDg.png"
+    },
+    {
+      "ID": 3,
+      "Nome": "casada",
+      "tipo": "png",
+      "mensagem": "Para que comer uma solteira se voce pode comer uma casada milf furry",
+      "url": "https://i.imgur.com/20kxOxa.png"
+    },
+    {
+      "ID": 4,
+      "Nome": "cheirosinho",
+      "tipo": "png",
+      "mensagem": "Hoje tome um banho, lave o cabelo e passe aquele perfume! Nunca se sabe quando voce vai levar uma cafungada no pescoço",
+      "url": "https://i.imgur.com/nDjB8GO.png"
+    },
+    {
+      "ID": 5,
+      "Nome": "felicidades",
+      "tipo": "png",
+      "mensagem": "A felicidade é uma coisa inexplicavel, que demoraria anos para ser explicada então seja feliz inexplicavelmente",
+      "url": "https://i.imgur.com/HVEnICq.png"
+    },
+    {
+      "ID": 6,
+      "Nome": "feliz_mamada",
+      "tipo": "png",
+      "mensagem": "A muher mais feliz do mundo é a que consegue olhar para cima ver isso e continuar a cantar: eu escolhi amar você pra sempreeeeeeeeee",
+      "url": "https://i.imgur.com/VAGl5vJ.png"
+    },
+    {
+      "ID": 7,
+      "Nome": "murro",
+      "tipo": "png",
+      "mensagem": "Hoje não deixe ninguem te derrubar faça sua melhor posição e de um murro ninja ",
+      "url": "https://i.imgur.com/p4g7Glx.png"
+    },
+    {
+      "ID": 8,
+      "Nome": "perdi_alianca",
+      "tipo": "png",
+      "mensagem": "Se você perder uma coisa não fique triste, ela pode aparecer mas se voce perder seu cu apostando na sinuca fique triste, ele nunca sera o mesmo ",
+      "url": "https://i.imgur.com/SqCzYAV.png"
+    },
+    {
+      "ID": 9,
+      "Nome": "pensador_banheiro",
+      "tipo": "png",
+      "mensagem": "As vezes tomar banho pode ser bom, lavar a alma, mas só aos sabados para não gastar água",
+      "url": "https://i.imgur.com/C2gjieX.png"
+    },
+    {
+      "ID": 10,
+      "Nome": "qq_to_fazendaki",
+      "tipo": "png",
+      "mensagem": "A arte de dormir em todos os lugares é somente para aqueles mais preparados",
+      "url": "https://i.imgur.com/L0e5eEQ.png"
+    },
+    {
+      "ID": 11,
+      "Nome": "sou_lindo",
+      "tipo": "png",
+      "mensagem": "Minha mãe me falava: \"Nossa filho como voce esta lindo.\" \n\nJá meu pai me dizia:\n",
+      "url": "https://i.imgur.com/nkqbsKV.png"
+    },
+    {
+      "ID": 12,
+      "Nome": "vo_falar_nada",
+      "tipo": "png",
+      "mensagem": "Hoje você tem que se hidratar se não vai ter pedra nos rins daqui a 5 meses",
+      "url": "https://i.imgur.com/gPHXAiQ.png"
+    },
+    {
+      "ID": 13,
+      "Nome": "selfie_2",
+      "tipo": "png",
+      "mensagem": "Hoje pode ser o dia que você recebe uma mensagem no seu celular você olha e ve que a gata mandou: \"To sozinha em casa gato.\"\n Hoje é seu dia de sorte.",
+      "url": "https://i.imgur.com/cTsEveU.png"
+    },
+    {
+      "ID": 14,
+      "Nome": "colgate",
+      "tipo": "png",
+      "mensagem": "Lembre-se nunca escove os dentes, siga meu exemplo, dente machuca!",
+      "url": "https://i.imgur.com/AAWejyf.png"
+    },
+    {
+      "ID": 15,
+      "Nome": "pensador_2",
+      "tipo": "png",
+      "mensagem": "O dinheiro nao é tudo na vida, lembre-se tambem que existe o ouro, diamante da platina e de outras propriedades",
+      "url": "https://i.imgur.com/0m4Pyne.png"
+    },
+    {
+      "ID": 16,
+      "Nome": "pensador",
+      "tipo": "png",
+      "mensagem": "Uma vez eu escutei que um surdo ouviu que uma cega viu uma aleijada correndo atras dos seus sonhos, então nunca desista",
+      "url": "https://i.imgur.com/QVK84Er.png"
+    },
+    {
+      "ID": 17,
+      "Nome": "avioneiro",
+      "tipo": "png",
+      "mensagem": "Meu sonho era trabalhar nas forças armadas, e hoje eu realizei esse meu sonho e sou o melhor cadete do exercito, capino 2 lotes por dia dependendo do tamanho.",
+      "url": "https://i.imgur.com/E0sRjUk.png"
+    },
+    {
+      "ID": 18,
+      "Nome": "amiguinho_colorido_2",
+      "tipo": "png",
+      "mensagem": "Minha namorada tem barba mas ela disse que é por causa dos hormônios da academia.\n❤️ Te amo amor ❤️",
+      "url": "https://i.imgur.com/nUmdvWq.png"
+    },
+    {
+      "ID": 19,
+      "Nome": "akatsuki",
+      "tipo": "png",
+      "mensagem": "Quando você se sentir uma merda, um inutil, um pedaço de cocô, um merda, uma pessoa que nao serve para nada! Não se esqueça que o naruto nunca iria desistir, mas você não é o naruto e muito menos eu.",
+      "url": "https://i.imgur.com/3VxBpg8.png"
+    },
+    {
+      "ID": 20,
+      "Nome": "delicia_comida",
+      "tipo": "png",
+      "mensagem": "Quando você for sair sempre lembre de levar a sua comida caso voce esteja com fome você tera alimento rapido, e não esqueça também da comida de emergência.",
+      "url": "https://i.imgur.com/2OawVfr.png"
+    },
+    {
+      "ID": 21,
+      "Nome": "mimir_2",
+      "tipo": "png",
+      "mensagem": "Nunca se esqueça de dormir com a boca fechada, mosquito não tem freio! Nem amigo bêbado...",
+      "url": "https://i.imgur.com/Q8g3lJp.png"
+    },
+    {
+      "ID": 22,
+      "Nome": "partiu_zoom",
+      "tipo": "png",
+      "mensagem": "Não se esqueça de sempre usar máscara de forma correta tampando boca e nariz e não no queixo como macacos.",
+      "url": "https://i.imgur.com/kATwjdn.png"
+    },
+    {
+      "ID": 23,
+      "Nome": "tiradentes",
+      "tipo": "png",
+      "mensagem": "Os melhores amigos te ajudam a colar, a passar de ano e tudo que você tem que fazer é dar uma mamada nele. \nOBS: Sem contato visual",
+      "url": "https://i.imgur.com/ENJ5K9W.png"
+    },
+    {
+      "ID": 24,
+      "Nome": "to_preso",
+      "tipo": "png",
+      "mensagem": "As vezes você tem que abrir mão do role sábado para cuidar da sua amada.. Mas e ai role sábado que vem?",
+      "url": "https://i.imgur.com/X6Ne8vj.png"
+    },
+    {
+      "ID": 25,
+      "Nome": "tomar_sorvete",
+      "tipo": "png",
+      "mensagem": "Tudo o que você precisa saber para tomar sorvete é nao encostar os dentes nas bolas. \nSegue a foto para um exemplo:",
+      "url": "https://i.imgur.com/aQz5w5m.png"
+    },
+    {
+      "ID": 26,
+      "Nome": "vida_dificil",
+      "tipo": "png",
+      "mensagem": "Eu não gosto de mim eu tento não me ver nem ficar perto, mas em todo lugar que eu ia eu estava la",
+      "url": "https://i.imgur.com/CJimF94.png"
+    },
+    {
+      "ID": 27,
+      "Nome": "biscoitao",
+      "tipo": "png",
+      "mensagem": "As vezes tudo que eu faço me lembra minha namorada barbuda que fala que a barba era por conta dos hormônios da academia... Achei que era o clitoris",
+      "url": "https://i.imgur.com/BVUU1VE.png"
+    },
+    {
+      "ID": 28,
+      "Nome": "banheta",
+      "tipo": "png",
+      "mensagem": "Hoje Dandan recomenda voce tomar banho, pode não ser sábado ou pode ser mas sempre é bom uma banheta surpresa!",
+      "url": "https://i.imgur.com/b9o9kEf.png"
+    },
+    {
+      "ID": 29,
+      "Nome": "cagando",
+      "tipo": "png",
+      "mensagem": "A melhor hora de se pensar na vida é quando estiver no banheiro! Hoje tire um tempo sente=se no vaso e pense sobre todas as merdas que você já fez e aproveite e faça outra!",
+      "url": "https://i.imgur.com/tgtV91M.png"
+    },
+    {
+      "ID": 30,
+      "Nome": "banhozinho_2",
+      "tipo": "png",
+      "mensagem": "As vezes me ensaboando lembro que todos da casa usam o mesmo sabonete e passam na bunda o sabonete que eu to passando na cara..",
+      "url": "https://i.imgur.com/5jlD3B2.png"
+    },
+    {
+      "ID": 31,
+      "Nome": "aeee_garai",
+      "tipo": "png",
+      "mensagem": "Nunca deixe ninguem dizer que você não consegue, diga você mesmo: Eu não consigo!",
+      "url": "https://i.imgur.com/h9pyNBo.png"
+    }
+  ]
+}

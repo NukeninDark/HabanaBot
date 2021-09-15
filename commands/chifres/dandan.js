@@ -1,5 +1,7 @@
 const Discord = require('discord.js');
-const {Dandan} = require('./fotos.json');
+const {
+    Dandan
+} = require('./fotos.json');
 const fs = require('fs');
 var configs = require('../../config.json');
 
@@ -17,8 +19,8 @@ var ID = 0
 
 function shuffleArray(arr) {
     for (let i = arr.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [arr[i], arr[j]] = [arr[j], arr[i]];
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
     }
 }
 
@@ -30,7 +32,7 @@ function atualizarJSON() {
     });
 }
 
-function retirarPrimeironumeroArray(){
+function retirarPrimeironumeroArray() {
     configs.numerosDiaDandan.shift();
     if (configs.numerosDiaDandan[0] == undefined) {
         for (let i = 0; i < Dandan.length; i++) {
@@ -41,8 +43,8 @@ function retirarPrimeironumeroArray(){
     ID = configs.numerosDiaDandan[0];
 }
 
-function enviarMensagem(message, args){
-	return message.reply(`${Dandan[ID].mensagem}`, new Discord.MessageAttachment(Dandan[ID].url));
+function enviarMensagem(message, args) {
+    return message.reply(`${Dandan[ID].mensagem}`, new Discord.MessageAttachment(Dandan[ID].url));
 }
 
 function atualizandoMensagem(message, numero) {
@@ -52,30 +54,30 @@ function atualizandoMensagem(message, numero) {
 
 module.exports = {
 
-	name: 'dandan',
+    name: 'dandan',
     aliases: ['dan'],
-	description: 'Descubra qual é o pensamento de hoje com o Dandan!',
+    description: 'Descubra qual é o pensamento de hoje com o Dandan!',
     usage: '[!dandan ou !dan]',
-	execute(message, args){
+    execute(message, args) {
 
         const date = new Date();
         const diaAtual = date.getDate()
 
-        if(configs.dia != diaAtual){
+        if (configs.dia != diaAtual) {
             retirarPrimeironumeroArray();
             configs.dia = diaAtual;
             atualizarJSON();
         } else {
             ID = configs.numerosDiaDandan[0]
         }
-		enviarMensagem(message, args);
-	},
+        enviarMensagem(message, args);
+    },
 
-    atualizarDia(message, args){
+    atualizarDia(message, args) {
         var numero;
 
         if (isNaN(args[0])) {
-            if(args[0] == 'a'){
+            if (args[0] == 'a') {
                 numero = Object.keys(configs.numerosDiaDandan).length
             } else if (args[0] === undefined) {
                 numero = 1;
@@ -86,17 +88,17 @@ module.exports = {
             numero = parseInt(args[0])
         }
 
-        if(numero > 1){
+        if (numero > 1) {
             for (let i = 0; i < numero; i++) {
                 retirarPrimeironumeroArray();
             }
-        atualizandoMensagem(message, numero);
-        } else if(numero <= 0) {
+            atualizandoMensagem(message, numero);
+        } else if (numero <= 0) {
             return message.reply('O número para atualizar não pode ser zero ou menor!');
         } else {
             retirarPrimeironumeroArray();
             atualizandoMensagem(message, numero);
         }
     }
-        
+
 };
